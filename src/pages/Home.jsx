@@ -5,6 +5,7 @@ import AiTools from '../components/AiTools'
 import Testimonial from '../components/Testimonial'
 import Plan from '../components/Plan'
 import Footer from'../components/Footer'
+import { Layout, Sidebar } from 'lucide-react'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Testimonial/>
       <Plan/>
       <Footer/>
+      <Sidebar/>
     </>
   )
 }
